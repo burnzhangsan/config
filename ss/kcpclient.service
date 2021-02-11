@@ -1,0 +1,13 @@
+[Unit]
+Description=kcptun-server Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+PIDFile=/var/run/kcp-server.pid
+ExecStart=/usr/local/bin/client_linux_amd64 -r "myip:8080" -l ":8388" -mode fast3 -nocomp -autoexpire 900 -sockbuf 16777217 -dscp 46 --crypt=aes-192 --key mypassword
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target

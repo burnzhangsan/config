@@ -1,0 +1,8 @@
+dev-lang/scala doc emacs
+dev-java/groovy doc
+dev-util/idea-community -jbr11 -jbr8
+dev-util/clion custom-jdk
+dev-java/sbt -binary
+dev-java/openjdk javafx nsplugin examples webstart systemtap gentoo-vm
+dev-java/icedtea webstart nsplugin
+dev-util/pycharm-community -bundled-jdk

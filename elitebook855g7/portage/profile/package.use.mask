@@ -1,0 +1,2 @@
+www-client/chromium -system-libvpx
+dev-java/openjdk -gentoo-vm

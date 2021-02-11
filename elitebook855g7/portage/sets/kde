@@ -1,0 +1,14 @@
+kde-plasma/plasma-meta
+kde-apps/kdeadmin-meta
+kde-apps/kdecore-meta
+#kde-apps/kdepim-meta
+kde-apps/kwalletmanager
+kde-apps/okular
+kde-apps/spectacle
+kde-apps/gwenview
+kde-apps/thumbnailers
+kde-apps/ffmpegthumbs
+kde-apps/kdenetwork-filesharing
+kde-apps/kate
+x11-misc/sddm
+x11-themes/gentoo-artwork

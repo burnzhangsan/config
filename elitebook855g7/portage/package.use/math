@@ -1,0 +1,6 @@
+sci-mathematics/sage sagenb doc-pdf
+sci-mathematics/maxima emacs sbcl 
+sci-mathematics/octave doc fftw gnuplot java
+sci-mathematics/fricas emacs sbcl gmp
+dev-lang/R doc java
+#sci-mathematics/rstudio server

@@ -1,0 +1,13 @@
+[Unit]
+Description=kcptun-server Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+PIDFile=/var/run/kcp-server.pid
+ExecStart=/usr/local/bin/server_linux_amd64 -t "127.0.0.1:443" -l ":8080" -mode fast3 -nocomp -sockbuf 16777217 -dscp 46 --key mypassword --crypt aes-192
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target

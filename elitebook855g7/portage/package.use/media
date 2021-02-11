@@ -1,0 +1,19 @@
+media-video/ffmpeg amr amrenc bs2b cdio codec2 chromium cpudetection doc fdk gcrypt gme gmp libass libaom libdrm libxml2 aacplus bluray jpeg2k kvazaar ladspa libcaca libilbc librtmp libsoxr modplug opus openh264 openssl snappy speex ssh samba
+media-gfx/gimp smp doc aalib jpeg2k wmf openexr svg xpm vector-icons
+media-gfx/graphviz devil examples gts guile java
+media-gfx/imagemagick fftw graphviz hdri jpeg2k raw wmf
+media-libs/mesa osmesa vulkan vulkan-overlay
+media-sound/mpd -alsa adplug audiofile cdio expat faad gme lame libmpdclient libsamplerate libsoxr mikmod mms modplug mpg123 musepack nfs opus recorder sid sndfile soundcloud sqlite twolame upnp zip pipe webdav
+media-sound/ncmpcpp clock curl outputs taglib visualizer
+media-video/mpv archive bluray cplugins dvb gbm libcaca libguess openal rubberband uchardet vf-dlopen libmpv
+media-sound/pulseaudio equalizer libsamplerate realtime sox 
+#media-libs/phonon qt5 vlc
+media-sound/shntool alac mac shorten sox
+media-video/vlc aalib atmo audioqueue bidi cddb faad fluidsynth gme libass libcaca libtar live matroska sftp skins qt5 bluray taglib v4l upnp
+media-libs/libbluray bdplus java utils aacs
+media-sound/beets badfiles bpd chroma convert discogs mpdstats replaygain thumbnails web
+media-gfx/graphicsmagick fps imagemagick modules q32 wmf
+x11-drivers/xf86-video-intel dri3
+media-sound/cantata cddb http-server musicbrainz replaygain streaming taglib
+media-libs/opencv qt5
+media-sound/feeluown -kuwo -xiami 

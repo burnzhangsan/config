@@ -1,0 +1,2 @@
+sci-libs/openblas eselect-ldso  
+sci-libs/lapack  lapacke eselect-ldso

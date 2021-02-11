@@ -1,0 +1,47 @@
+Xcursor.theme: gentoo-silver
+Xcursor.size: 24
+!Xft.dpi: 120
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+!===============================
+!setting for urxvt  
+urxvt.visualBell: false
+URxvt*termName: rxvt-unicode
+!urxvt*.transparent: true
+!urxvt*.shading: 24
+urxvt*font:xft:Source Code Pro:pixelsize=20, \
+xft:Noto Sans Mono CJK SC:pixelsize=20, \
+xft:Noto Sans Mono CJK TC:pixelsize=20, \
+xft:Noto Sans Mono CJK JP:pixelsize=20
+urxvt*cursorBlink: true  
+!urxvt*geometry:100X37  
+!urxvt*scrollBar_floating:true  
+!urxvt*scrollstyle:next  
+!urxvt*scrollTtyOutput:True  
+!urxvt*internalBorder:5
+!urxvt*externalBorder:35  
+!urxvt*fading: 80  
+!urxvt.shading: 60  
+urxvt*scrollBar: false
+urxvt*saveLines: 65535  
+urxvt*borderLess: false
+!Urxvt*color:1:#00000
+!URxvt.color12: rgb:5c/5c/ff 
+urxvt*colorBD: blue
+urxvt*colorIT: green 
+urxvt*colorUL: red
+urxvt*foreground: white
+urxvt*background: [70]black
+!urxvt.cursorColor: red3  
+urxvt*perl-ext-common:default,tabbed,clipboard,keyboard-select
+urxvt*depth: 32
+urxvt.inputMethod:fcitx
+urxvt.preeditType: OnTheSpot,None
+urxvt.keysym.M-c:   perl:clipboard:copy
+urxvt.keysym.M-v:   perl:clipboard:paste
+urxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search

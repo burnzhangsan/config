@@ -1,0 +1,4 @@
+app-i18n/fcitx gtk2 gtk3 opencc
+app-i18n/fcitx5-gtk gtk3 gtk2
+app-i18n/fcitx5-qt -only_plugin qt5
+app-i18n/fcitx-libpinyin dictionary-manager

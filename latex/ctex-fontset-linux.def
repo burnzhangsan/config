@@ -1,0 +1,23 @@
+\ProvidesExplFile{ctex-fontset-linux.def}
+{\ExplFileDate}{2.4.14}{\ExplFileDescription}
+
+\setCJKmainfont
+[ BoldFont = Source~Han~Sans~SC, ItalicFont = Adobe~Kaiti~Std~R ] { Source~Han~Serif~SC }
+\setCJKsansfont { Source~Han~Sans~SC }
+\setCJKmonofont { Source~Han~Sans~HW~SC }
+
+\setmainfont{Noto~Serif}
+\setsansfont{Noto~Sans}
+\setmonofont{Source~Code~Pro}
+
+\setCJKfamilyfont { zhsong } { Source~Han~Serif~SC }
+\setCJKfamilyfont { zhhei }  { Source~Han~Sans~SC }
+\setCJKfamilyfont { zhming }  { Adobe~Ming~Std }
+\setCJKfamilyfont { zhfs } { Adobe~Fangsong~Std }
+\setCJKfamilyfont { zhkai }  { Adobe~Kaiti~Std~R }
+
+\NewDocumentCommand \song   { } { \CJKfamily { zhsong } }
+\NewDocumentCommand \hei    { } { \CJKfamily { zhhei } }
+\NewDocumentCommand \ming   { } { \CJKfamily { zhming } }
+\NewDocumentCommand \fs   { } { \CJKfamily { zhfs } }
+\NewDocumentCommand \kai   { } { \CJKfamily { zhkai } }

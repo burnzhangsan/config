@@ -1,0 +1,8 @@
+CC=clang
+CXX=clang++
+AR=llvm-ar
+NM=llvm-nm
+RANLIB=llvm-ranlib
+#CFLAGS="${CFLAGS} -flto=thin"
+#CXXFLAGS="${CXXFLAGS} -flto=thin"
+#LDFLAGS="-Wl,-O3 -Wl,--as-needed"

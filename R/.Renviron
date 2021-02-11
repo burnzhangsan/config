@@ -1,0 +1,5 @@
+RETICULATE_PYTHON="/usr/bin/python"
+#RETICULATE_PYTHON="~/R/rconda/bin/python"
+LANGUAGE="en"
+#R_LIBS_USER="~/.local/lib64/R"
+R_COMPLETION=TRUE

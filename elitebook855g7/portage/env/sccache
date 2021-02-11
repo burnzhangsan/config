@@ -1,0 +1,3 @@
+CC='sccache clang'
+CXX='sccache clang++'
+RUSTC_WRAPPER='sccache'

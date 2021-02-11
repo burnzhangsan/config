@@ -1,0 +1,16 @@
+#/bin/bash
+cd /usr/src/linux
+make oldconfig
+make -j16
+make install
+make modules_install
+
+old_ver=$(uname -r)
+new_ver=$(make kernelversion)
+#cp /boot/vmlinuz-$new_ver /boot/gentoo.efi
+#cp /boot/loader/entries/gentoo.conf /boot/loader/entries/oldgentoo.conf
+#sed -i "s/$old_ver/$new_ver/g" /boot/loader/entries/gentoo.conf
+#sed -i "s/Gentoo Linux/Gentoo Linux Rollback/g" /boot/loader/entries/oldgentoo.conf
+dracut --lz4 /boot/initramfs-$new_ver.img --force
+grub-mkconfig -o /boot/grub/grub.cfg
+#emerge @module-rebuild
