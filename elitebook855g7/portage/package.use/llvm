@@ -1,5 +1,0 @@
-#sys-devel/clang default-compiler-rt default-libcxx default-lld
-sys-devel/llvm exegesis xar z3 gold
-dev-lang/rust clippy rls rustfmt -parallel-compiler system-bootstrap system-llvm
-#sys-libs/libcxx -libunwind
-#sys-libs/libcxxabi -libunwind

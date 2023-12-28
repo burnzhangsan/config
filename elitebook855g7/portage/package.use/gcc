@@ -1,2 +1,0 @@
-sys-devel/gcc graphite mpx cilk lto pgo pie systemtap zstd
-sys-devel/gcc:9.3.0 graphite mpx cilk lto pgo pie systemtap zstd

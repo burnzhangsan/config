@@ -1,2 +1,0 @@
-app-emulation/qemu lzo nfs ssh -vde virgl virtfs xfs numa qemu_softmmu_targets_aarch64 spice
-app-emulation/libvirt audit libssh lxc nfs parted virt-network

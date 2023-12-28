@@ -1,4 +1,0 @@
-www-client/firefox clang -geckodriver wifi lto pgo screencast bindist
-#www-client/firefox bindist clang geckodriver wifi lto pgo system-libvpx
-www-client/seamonkey system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite wifi
-mail-client/thunderbird clang bindist lightning lto wifi pgo

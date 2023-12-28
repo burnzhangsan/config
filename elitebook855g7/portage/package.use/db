@@ -1,4 +1,0 @@
-dev-db/mariadb jdbc extraengine embedded innodb-lz4 innodb-lzo innodb-snappy galera kerberos mroonga odbc oqgraph sphinx sst-rsync sst-xtrabackup
-dev-db/sqlite tools
-dev-db/mysql extraengine embedded
-virtual/mysql embedded

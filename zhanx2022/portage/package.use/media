@@ -1,0 +1,4 @@
+media-video/pipewire extra
+media-video/ffmpeg opus -openal -sdl
+media-libs/libsndfile minimal
+media-libs/freetype harfbuzz

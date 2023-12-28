@@ -1,3 +1,0 @@
-app-text/texlive-core -X cjk -luajittex xetex
-dev-texlive/texlive-basic -luajittex
-app-text/texlive -X cjk l10n_zh l10n_en -png truetype extra metapost science 

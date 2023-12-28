@@ -1,6 +1,0 @@
-media-fonts/acroread-asianfonts l10n_ja l10n_zh-TW
-media-fonts/source-han-sans l10n_ja l10n_ko l10n_zh-TW
-media-fonts/terminus-font distinct-l quote ru-i ru-k ru-dv a-like-o -ru-g otf
-media-fonts/source-pro -cjk
-media-fonts/noto -cjk
-media-libs/freetype harfbuzz
